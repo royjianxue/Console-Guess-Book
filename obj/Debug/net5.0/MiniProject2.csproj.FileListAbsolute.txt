@@ -1,0 +1,16 @@
+/home/royxue/Desktop/csharp/Console Guess Book/bin/Debug/net5.0/MiniProject2
+/home/royxue/Desktop/csharp/Console Guess Book/bin/Debug/net5.0/MiniProject2.deps.json
+/home/royxue/Desktop/csharp/Console Guess Book/bin/Debug/net5.0/MiniProject2.runtimeconfig.json
+/home/royxue/Desktop/csharp/Console Guess Book/bin/Debug/net5.0/MiniProject2.runtimeconfig.dev.json
+/home/royxue/Desktop/csharp/Console Guess Book/bin/Debug/net5.0/MiniProject2.dll
+/home/royxue/Desktop/csharp/Console Guess Book/bin/Debug/net5.0/MiniProject2.pdb
+/home/royxue/Desktop/csharp/Console Guess Book/obj/Debug/net5.0/MiniProject2.csproj.AssemblyReference.cache
+/home/royxue/Desktop/csharp/Console Guess Book/obj/Debug/net5.0/MiniProject2.GeneratedMSBuildEditorConfig.editorconfig
+/home/royxue/Desktop/csharp/Console Guess Book/obj/Debug/net5.0/MiniProject2.AssemblyInfoInputs.cache
+/home/royxue/Desktop/csharp/Console Guess Book/obj/Debug/net5.0/MiniProject2.AssemblyInfo.cs
+/home/royxue/Desktop/csharp/Console Guess Book/obj/Debug/net5.0/MiniProject2.csproj.CoreCompileInputs.cache
+/home/royxue/Desktop/csharp/Console Guess Book/obj/Debug/net5.0/MiniProject2.dll
+/home/royxue/Desktop/csharp/Console Guess Book/obj/Debug/net5.0/refint/MiniProject2.dll
+/home/royxue/Desktop/csharp/Console Guess Book/obj/Debug/net5.0/MiniProject2.pdb
+/home/royxue/Desktop/csharp/Console Guess Book/obj/Debug/net5.0/MiniProject2.genruntimeconfig.cache
+/home/royxue/Desktop/csharp/Console Guess Book/obj/Debug/net5.0/ref/MiniProject2.dll

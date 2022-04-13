@@ -30,6 +30,17 @@ namespace ConsoleGuessBook
                 else
                 {
                     guests.Add(names, partyGuests);
+                    Console.Write("Are there anymore guests: y to continue.. ANY for no to exit..");
+                    string answer = Console.ReadLine();
+                    if(answer.ToLower() == "y")
+                    {
+                        keepGoing = true;
+                    }
+                    else
+                    {
+                        keepGoing = false;
+                    }
+
                 }
 
             } while (keepGoing);
@@ -40,6 +51,8 @@ namespace ConsoleGuessBook
                 System.Console.WriteLine($"We have guest family {guest.Key}, and they have {guest.Value} members at the party");
                 total += guest.Value;
             }
+            System.Console.WriteLine($"There are {total} guests at the party.");
+            Console.ReadKey();
         }
 
         public static string GetGuestName()

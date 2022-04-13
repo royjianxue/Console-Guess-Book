@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/royxue/Desktop/csharp/MiniProject2/MiniProject2.csproj": {}
+    "/home/royxue/Desktop/csharp/Console Guess Book/MiniProject2.csproj": {}
   },
   "projects": {
-    "/home/royxue/Desktop/csharp/MiniProject2/MiniProject2.csproj": {
+    "/home/royxue/Desktop/csharp/Console Guess Book/MiniProject2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/royxue/Desktop/csharp/MiniProject2/MiniProject2.csproj",
+        "projectUniqueName": "/home/royxue/Desktop/csharp/Console Guess Book/MiniProject2.csproj",
         "projectName": "MiniProject2",
-        "projectPath": "/home/royxue/Desktop/csharp/MiniProject2/MiniProject2.csproj",
+        "projectPath": "/home/royxue/Desktop/csharp/Console Guess Book/MiniProject2.csproj",
         "packagesPath": "/home/royxue/.nuget/packages/",
-        "outputPath": "/home/royxue/Desktop/csharp/MiniProject2/obj/",
+        "outputPath": "/home/royxue/Desktop/csharp/Console Guess Book/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/royxue/.nuget/NuGet/NuGet.Config"

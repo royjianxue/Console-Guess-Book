@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GRO8PorCLD8inPCP/JUsdkQGXjMiU/KOV2UTLtm74jVJhFOMPDxAvp/6rxoptWXjRJb24rzQrDEZt717B+4dgA==",
+  "dgSpecHash": "1mBM28UCQnbj8T1vMI0YBfm6ScwrYHw6mM+btMvigTQp+DLc/pwVVMj0h6AACAJspaJoyJjDH9ymoxQroOxw5w==",
   "success": true,
-  "projectFilePath": "/home/royxue/Desktop/csharp/MiniProject2/MiniProject2.csproj",
+  "projectFilePath": "/home/royxue/Desktop/csharp/Console Guess Book/MiniProject2.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
