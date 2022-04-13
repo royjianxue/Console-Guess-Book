@@ -15,8 +15,8 @@ namespace ConsoleGuessBook
 
                 if(!int.TryParse(numberOfGuests, out int partyGuests))
                 {
-                    System.Console.WriteLine("Input error, numeric number expected, retrying...");
-                    Console.Write("Do you wish to continue: y to continue.. ANY to exit.");
+                    System.Console.WriteLine("\nInput error, numeric number expected, retrying...");
+                    Console.Write("\nDo you wish to continue: y to continue.. ANY to exit.");
                     string answer = Console.ReadLine();
                     if(answer.ToLower() == "y")
                     {
@@ -30,7 +30,7 @@ namespace ConsoleGuessBook
                 else
                 {
                     guests.Add(names, partyGuests);
-                    Console.Write("Are there anymore guests: y to continue.. ANY for no to exit..");
+                    Console.Write("\nAre there anymore guests: y to continue.. ANY for no to exit..");
                     string answer = Console.ReadLine();
                     if(answer.ToLower() == "y")
                     {
@@ -48,10 +48,10 @@ namespace ConsoleGuessBook
             int total = 0;
             foreach(KeyValuePair<string, int> guest in guests) //earch for keyValuePair
             {
-                System.Console.WriteLine($"We have guest family {guest.Key}, and they have {guest.Value} members at the party");
+                System.Console.WriteLine($"\nWe have guest family {guest.Key}, and they have {guest.Value} members at the party..");
                 total += guest.Value;
             }
-            System.Console.WriteLine($"There are {total} guests at the party.");
+            System.Console.WriteLine($"\nThere are {total} guests at the party.");
             Console.ReadKey();
         }
 
@@ -63,7 +63,7 @@ namespace ConsoleGuessBook
         }
         public static string GuestsPerParty()
         {      
-            System.Console.Write("How many guests are in your party: ");
+            System.Console.Write("\nHow many guests are in your party: ");
             string guests = Console.ReadLine();
             return guests;
         }
