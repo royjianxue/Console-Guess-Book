@@ -17,7 +17,10 @@ namespace ConsoleGuessBook
                 {
                     System.Console.WriteLine("\nInput error, numeric number expected, retrying...");
                     Console.Write("\nDo you wish to continue: y to continue.. ANY to exit.");
+                    Console.WriteLine("");
+
                     string answer = Console.ReadLine();
+
                     if(answer.ToLower() == "y")
                     {
                         keepGoing = true;
@@ -31,7 +34,10 @@ namespace ConsoleGuessBook
                 {
                     guests.Add(names, partyGuests);
                     Console.Write("\nAre there anymore guests: y to continue.. ANY for no to exit..");
+                    Console.WriteLine("");
+
                     string answer = Console.ReadLine();
+
                     if(answer.ToLower() == "y")
                     {
                         keepGoing = true;
@@ -46,7 +52,7 @@ namespace ConsoleGuessBook
             } while (keepGoing);
             
             int total = 0;
-            foreach(KeyValuePair<string, int> guest in guests) //earch for keyValuePair
+            foreach(KeyValuePair<string, int> guest in guests) //search for keyValuePair, displace key and value
             {
                 System.Console.WriteLine($"\nWe have guest family {guest.Key}, and they have {guest.Value} members at the party..");
                 total += guest.Value;
